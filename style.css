@@ -18,7 +18,7 @@ html {
 }
 
 .calc-container {
-	background-color: #1d1d1d;
+	background-color: #1A1F33;
 	border-radius: 0 0 30px 30px;
 	height: auto;
 	width: 600px;
@@ -66,10 +66,10 @@ html {
 }
 
 .input {
-	background-color: #fff;
-	border: 1px solid #1d1d1d;
-	border-radius: 0 0 25px 25px;
+	background-color: #1A1F33;
 	height: 340px;
+	padding: 8px;
+	border-radius: 0px 0px 16px 16px;
 }
 
 .row {
@@ -79,25 +79,26 @@ html {
 }
 
 .row button {
-	background-color: transparent;
+	background-color: #353A4E;
 	border: none;
-	border-radius: 50%;
+	border-radius: 4px;
 	cursor: pointer;
 	font-size: 1.5em;
 	height: 50px;
-	margin: 8px;
-	width: 50px;
+	margin: 8px 4px;
+	width: 80px;
+	color: #FFFFFF;
 }
 
 .row button:hover {
-	font-weight: bold;
+	background-color: #2C3145;
 }
 
 .row #calculate {
-	background-color: #46e0bc;
-	border-radius: 50px;
+	background-color: #53BFFF;
+	border-radius: 4px;
 	color: #fff;
-	width: 121px;
+	width: 170px;
 }
 
 .row #delete {
@@ -118,7 +119,6 @@ html {
 }
 
 .active-angle {
-	background-color: #1d1d1d !important;
-	border-radius: 10px !important;
-	color: #fff !important;
+	background-color: #fff !important;
+	color: #1d1d1d !important;
 }
